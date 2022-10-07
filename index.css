@@ -1,19 +1,19 @@
 body {
     background-image: url("https://images.pexels.com/photos/1654419/pexels-photo-1654419.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
-    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
-
+    height: 100vh;
 }
 
-.container{
+.container-fluid{
     max-width: 80%;
     margin: auto;
     border: 3px 2px;
     padding: 2rem;
-
     background: rgb(255,255,255,0.2);
+    border-radius: 10px;
 }
 
 h1 {
