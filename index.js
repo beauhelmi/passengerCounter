@@ -8,35 +8,15 @@
 
 // grab the count-el element, store it in a countEl variable
 let countEl = document.getElementById("count-el")
-console.log(countEl)
+let saveEl = document.getElementById("save-el")
 let count = 0
 
 function increment() {
     count += 1
-    countEl.innerText = count
+    countEl.textContent = count
     // set countEl's innerText to the count
 }
 function save() {
-    console.log(count)
+    let countStr = count + " - "
+    saveEl.textContent += countStr 
 }
-
-let saveEl = document.getElementById("save-el")
-console.log(saveEl)
-
-// let username = "pear"
-// console.log(username)
-
-// let notifyMessage = "You have tree new notifications";
-// console.log(username + " " + notifyMessage)
-
-// let messageToUser = notifyMessage + "," + username + "!"
-// console.log(messageToUser)
-
-// let myName = "b34u helmi"
-// let greeting1 = "Hello and Welcome, "
-
-// let myGreeting = greeting1 + myName + "!"
-
-// console.log(myGreeting)
-
-
