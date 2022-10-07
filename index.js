@@ -16,3 +16,7 @@ function increment() {
     countEl.innerText = count
     // set countEl's innerText to the count
 }
+
+function save() {
+    console.log(count)
+}
