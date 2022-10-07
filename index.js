@@ -20,6 +20,9 @@ function save() {
     console.log(count)
 }
 
+let saveEl = document.getElementById("save-el")
+console.log(saveEl)
+
 // let username = "pear"
 // console.log(username)
 
@@ -36,4 +39,4 @@ function save() {
 
 // console.log(myGreeting)
 
-gi
+
