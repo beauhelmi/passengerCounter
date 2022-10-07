@@ -12,12 +12,28 @@ console.log(countEl)
 let count = 0
 
 function increment() {
-    count = count + 1
+    count += 1
     countEl.innerText = count
     // set countEl's innerText to the count
 }
-
-let saveBtn = document.getElementById("save-btn")
 function save() {
     console.log(count)
 }
+
+// let username = "pear"
+// console.log(username)
+
+// let notifyMessage = "You have tree new notifications";
+// console.log(username + " " + notifyMessage)
+
+// let messageToUser = notifyMessage + "," + username + "!"
+// console.log(messageToUser)
+
+// let myName = "b34u helmi"
+// let greeting1 = "Hello and Welcome, "
+
+// let myGreeting = greeting1 + myName + "!"
+
+// console.log(myGreeting)
+
+gi
