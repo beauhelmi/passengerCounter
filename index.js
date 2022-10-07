@@ -17,6 +17,7 @@ function increment() {
     // set countEl's innerText to the count
 }
 
+let saveBtn = document.getElementById("save-btn")
 function save() {
     console.log(count)
 }
